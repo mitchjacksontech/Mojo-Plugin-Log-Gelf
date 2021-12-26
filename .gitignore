@@ -1,0 +1,13 @@
+# dzil
+dist
+.build
+
+# PLS
+.pls_cache
+
+# Dist
+*.tar.gz
+MojoX-Plugin-Log-Gelf-v*/
+
+# Macos nonsense
+.DS_Store
