@@ -1,10 +1,10 @@
 package MojoX::Plugin::Log::GELF;
 use Mojo::Base 'Mojolicious::Plugin', -signatures;
 use Mojo::JSON qw(encode_json);
-use MojoX::Log::GELF;
+use MojoX::Log::GELF 0.0.3;
 use Feature::Compat::Try;
 
-use version; our $VERSION = version->declare('v0.0.1');
+use version; our $VERSION = version->declare('v0.0.2');
 
 my $CONFIG_KEY = 'MojoX::Plugin::Log::GELF';
 

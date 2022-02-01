@@ -20,7 +20,7 @@ my %WriteMakefileArgs = (
     "Feature::Compat::Try" => 0,
     "Mojo::Base" => 0,
     "Mojo::JSON" => 0,
-    "MojoX::Log::GELF" => 0,
+    "MojoX::Log::GELF" => "0.0.3",
     "version" => 0
   },
   "TEST_REQUIRES" => {
@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "v0.0.1",
+  "VERSION" => "v0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -39,7 +39,7 @@ my %FallbackPrereqs = (
   "Feature::Compat::Try" => 0,
   "Mojo::Base" => 0,
   "Mojo::JSON" => 0,
-  "MojoX::Log::GELF" => 0,
+  "MojoX::Log::GELF" => "0.0.3",
   "Test::More" => 0,
   "strict" => 0,
   "version" => 0,

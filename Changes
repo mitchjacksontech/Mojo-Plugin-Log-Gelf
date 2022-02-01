@@ -1,2 +1,7 @@
 {{$NEXT}}
+
+v0.0.2    2022-02-01 00:35:33-05:00 America/New_York
+  - Bump dependency version
+
+v0.0.1    2021-12-25 21:01:04-05:00 America/New_York
   - Initial release
